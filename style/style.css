@@ -40,6 +40,11 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+hr{
+    border: none;
+    height: 1px;
+    background-color: #D1D1D1;
+}
 
 /* Header style */
 .header{
@@ -164,4 +169,47 @@ nav ul li a{
     font-size: 16px;
     line-height: 28px;
     color: #757575;
+}
+
+/* Resume section Style */
+
+.resume-section{
+    margin: 130px auto;
+    text-align: center;
+}
+.resume-container{
+    display: flex;
+    gap: 70px;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.common-container{
+    flex: 1;
+}
+.common-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.common-heading{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin: 5px 0;
+}
+.common-sub{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin: 0;
+}
+.common-text{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+.education, .experience{
+    height: 250px;
+    margin: 20px 0;
 }

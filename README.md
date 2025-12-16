@@ -110,7 +110,7 @@ If you like this landing page, please give the repository a ⭐ on GitHub—it m
 ## 🧑‍💻 Developer
 
 - Developed by: Md. Razaul Karim
-- Role: Frontend Developer (HTML • CSS • Tailwind • DaisyUI)
+- Role: Frontend Developer (HTML • CSS)
 
 - GitHub: https://github.com/dev-rktanvir
 - LinkedIn: https://www.linkedin.com/in/dev-razaul-karim/

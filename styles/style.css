@@ -36,6 +36,7 @@ img {
     font-size: 20px;
     font-weight: 700;
     color: white;
+    border: none;
 }
 
 /* section title */
@@ -238,4 +239,36 @@ nav li a {
 }
 .card p{
     font-size: 0.875rem;
+}
+
+/* Resume section */
+.resume{
+    text-align: center;
+    padding: 0 20px;
+}
+.columns{
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.resume-content{
+    text-align: left;
+    margin-top: 30px;
+}
+.resume-content h3{
+    font-weight: 700;
+    font-size: 1.5265rem;
+    margin-top: 10px;
+}
+.resume-content h4{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #757575;
+}
+.resume-content p{
+    font-size: 14px;
+}
+.sp-content{
+    border-top: 1px solid #D1D1D1;
+    border-bottom: 1px solid #D1D1D1;
 }

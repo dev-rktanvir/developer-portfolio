@@ -51,6 +51,19 @@
         padding-top: 0;
     }
 
+    /* Columns */
+    .columns {
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .column{
+        text-align: center;
+    }
+    .resume-content{
+        text-align: center;
+    }
+
 }
 
 /* Responsive for medium devices */

@@ -1,0 +1,79 @@
+/* Responsive for small device */
+@media screen and (max-width: 576px) {
+    html {
+        font-size: 12px;
+    }
+
+    .desktop-nav {
+        display: none;
+    }
+
+    /* Banner */
+    .header {
+        background-image: none;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        padding-bottom: 40px;
+    }
+
+    .banner img {
+        position: static;
+    }
+}
+
+/* Responsive for medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    html {
+        font-size: 14px;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    /* Banner */
+    .header {
+        background-image: none;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        padding-bottom: 40px;
+    }
+
+    .banner img {
+        position: static;
+    }
+}
+
+/* Responsive for large devices */
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+    .mobile-nav {
+        display: none;
+    }
+
+    /* Banner */
+    .header {
+        background-position:
+            calc((100% - 1280px) / 2 - 28px) center,
+            calc(100% - ((100% - 1280px)/2) - 100px) bottom;
+        ;
+    }
+
+    .banner img {
+        right: 20px;
+    }
+
+    .banner h2 {
+        font-size: 4.3125rem;
+    }
+}
+
+/* Responsive for extra large */
+@media screen and (min-width: 1140px) {
+    .mobile-nav {
+        display: none;
+    }
+}

@@ -163,3 +163,35 @@ nav li a {
     color: #FD6E0A;
     margin-left: 20px;
 }
+
+/* About me */
+.about{
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 100px;
+    margin: 130px auto;
+
+}
+.about-content{
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    padding: 4px;
+}
+.infos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.info h4{
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-weight: 400;
+}
+.info p{
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-weight: 700;
+}

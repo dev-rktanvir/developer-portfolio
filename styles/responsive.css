@@ -21,6 +21,22 @@
     .banner img {
         position: static;
     }
+
+    /* About */
+    .about {
+        padding: 20px;
+        margin: 60px auto;
+    }
+
+    .about-content {
+        gap: 10px;
+    }
+
+    .infos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
 }
 
 /* Responsive for medium devices */
@@ -45,6 +61,11 @@
 
     .banner img {
         position: static;
+    }
+
+    /* About */
+    .about {
+        padding: 30px;
     }
 }
 

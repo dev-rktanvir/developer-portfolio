@@ -57,11 +57,22 @@
         margin-top: 50px;
         margin-bottom: 20px;
     }
-    .column{
+
+    .column {
         text-align: center;
     }
-    .resume-content{
+
+    .resume-content {
         text-align: center;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-colmns {
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
@@ -108,6 +119,15 @@
         grid-template-columns: repeat(2, 1fr);
         padding-top: 0;
     }
+
+    /* Footer */
+    .footer {
+        padding: 60px;
+    }
+
+    .footer-colmns {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 /* Responsive for large devices */
@@ -130,6 +150,11 @@
 
     .banner h2 {
         font-size: 4.3125rem;
+    }
+
+     /* Footer */
+    .footer {
+        padding: 60px;
     }
 
 }

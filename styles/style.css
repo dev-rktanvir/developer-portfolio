@@ -166,11 +166,15 @@ nav li a {
     max-width: 585px;
 }
 
+.banner-btn{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
 .btn2 {
     background-color: transparent;
     border: 1px solid #FD6E0A;
     color: #FD6E0A;
-    margin-left: 20px;
 }
 
 /* About me */

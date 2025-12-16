@@ -30,6 +30,10 @@
         position: static;
     }
 
+    .banner-btn {
+        flex-direction: column;
+    }
+
     /* About */
     .about {
         padding: 20px;
@@ -158,6 +162,10 @@
         font-size: 4.3125rem;
     }
 
+    .banner-btn {
+        justify-content: flex-start;
+    }
+
     /* Footer */
     .footer {
         padding: 60px;
@@ -169,5 +177,9 @@
 @media screen and (min-width: 1140px) {
     .mobile-nav {
         display: none;
+    }
+
+    .banner-btn {
+        justify-content: flex-start;
     }
 }

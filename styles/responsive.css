@@ -64,6 +64,7 @@
 
     .resume-content {
         text-align: center;
+        height: auto;
     }
 
     /* Footer */
@@ -128,6 +129,11 @@
     .footer-colmns {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* resume */
+    .resume-content {
+        height: 200px;
+    }
 }
 
 /* Responsive for large devices */
@@ -152,7 +158,7 @@
         font-size: 4.3125rem;
     }
 
-     /* Footer */
+    /* Footer */
     .footer {
         padding: 60px;
     }

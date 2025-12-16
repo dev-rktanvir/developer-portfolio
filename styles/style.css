@@ -137,7 +137,7 @@ nav li a {
 
 .header {
     background-color: #FFF8F3;
-    background-image: url('/images/developer.png'), url('/images/header_bg.png');
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat, no-repeat;
     background-position:
         calc((100% - 1280px) / 2 - 100px) center,
